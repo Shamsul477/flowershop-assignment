@@ -22,7 +22,7 @@ background-position: bottom right;
 }
 .banner-gretting{
     font-size: 500px;
-    margin-bottom: 0px;
+    margin: auto;
 }
 .btn-primary{
     border-radius: 10px;
@@ -60,8 +60,8 @@ main section{
 .skills-container{
     display:flex;
     text-align: center;
-    gap:20px;
-    justify-content: space-around;
+    gap:10px;
+    justify-content: space-between;
   
   
 }
@@ -82,9 +82,30 @@ main section{
     background-image: linear-gradient();
     text-align: center;
     margin: auto;
+    justify-content: space-between;
 }
 .section-title{
-    display:flex
+    display:flex;
     text-align: center;
     justify-content: space-around;
+}
+.paragraph-container{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: space-between;
+
+}
+.paragraph{
+    padding:20px;
+    border-radius:0px;
+    background: #fff;
+    position: absolute;
+    box-shadow: 0PX 6PX 0PX 0PX(0, 0,0, 0.96);
+    display: flex;
+    justify-content: space-between;
+}
+.flower {
+    display: flex;
+    justify-content: space-between;
 }
