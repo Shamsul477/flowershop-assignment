@@ -1,0 +1,90 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+background-color: pink;
+background-position: bottom right;
+
+
+}
+
+.banner{
+    padding: 30px 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner profile-picture{
+    width:500px;
+}
+.banner-gretting{
+    font-size: 500px;
+    margin-bottom: 0px;
+}
+.btn-primary{
+    border-radius: 10px;
+    background: pink;
+    border: 20px;
+    color:white;
+    font-size: 30px;
+    font-weight: 700px;
+    padding: 15px 35px ;
+    cursor: pointer;
+}
+banner-heading{
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+main{
+    max-width: 1140px;
+    margin: auto;
+    background-color:whitesmoke;
+    
+}
+main section{
+    margin-top: 130px;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: auto;
+}
+
+.skills-container{
+    display:flex;
+    text-align: center;
+    gap:20px;
+    justify-content: space-around;
+  
+  
+}
+.skill{
+    padding:20px;
+    border-radius:0px;
+    background: #fff;
+    position: absolute;
+    box-shadow: 0PX 6PX 0PX 0PX(0, 0,0, 0.96);
+}
+
+.image{
+    display: flex;
+    text-align: center;
+}
+.ui-container{
+    display: flex;
+    background-image: linear-gradient();
+    text-align: center;
+    margin: auto;
+}
+.section-title{
+    display:flex
+    text-align: center;
+    justify-content: space-around;
+}
